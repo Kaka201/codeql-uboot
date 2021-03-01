@@ -8,4 +8,4 @@ import cpp
 // More compact version with the Function variable implicit
 from FunctionCall c
 where c.getTarget().getName() = "memcpy"
-select c
+select c, "call memcpy"
